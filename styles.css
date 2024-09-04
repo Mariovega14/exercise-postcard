@@ -1,0 +1,59 @@
+body {
+	background: black;
+	font-family: "SUSE";
+}
+
+.postcard {
+	background: white;
+	width: 450px;
+	height: 330px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+	font-family: "Pirata One";
+	font-size: 14px;
+}
+.postcard-header img {
+	width: 100px;
+	height: 100px;
+	margin-right: 40px;
+	margin-top: 10px;
+}
+.postcard-header h1 {
+	width: 800px;
+	margin-top: 10px;
+	margin-left: 60px;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left p:first-child {
+	margin-top: 0;
+}
+.body-left,
+.body-right {
+	padding-left: 0;
+}
+input {
+	border: none;
+	border-bottom: grey;
+	font-size: 14px;
+	margin-bottom: 14px;
+}
+p {
+	font-size: 16px;
+	margin-left: 10px;
+}
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background-color: grey;
+	padding: 3px;
+	color: black;
+}
+.body-right {
+	padding-top: 35px;
+	padding-left: 35px;
+}
